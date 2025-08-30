@@ -8,7 +8,7 @@ The analysis began with **data cleaning**, which involved several key steps:
 
 - Dropping missing values from the DataFrame
 - Removing rows based on specific conditions
-- Converting column types using methods such as `to_numeric`, `to_datetime`, and `astype`
+- Converting column types using methods such as `astype`
 
 ## Data Exploration
 
@@ -27,7 +27,7 @@ To answer these questions, various Pandas and Matplotlib methods were employed, 
 - Concatenating multiple CSV files into a single DataFrame using `pd.concat`
 - Adding and transforming columns
 - Parsing strings within cells to create new columns using `.str` methods
-- Applying custom functions with `.apply()`
+- Applying custom functions with `.apply()` and `.agg()`
 - Performing aggregation using `groupby`
 - Visualizing results with bar charts and line graphs
 - Properly labeling graphs for clarity
